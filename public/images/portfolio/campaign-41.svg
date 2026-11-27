@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">Wappx — WhatsApp Marketing &amp; Automation</title>
+  <desc id="description">Original illustrated portfolio artwork for Wappx, featuring WhatsApp Marketing &amp; Automation.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f7fbf4"/><stop offset="1" stop-color="#d9e4d4"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.7" fill="#547553" opacity=".12"/></pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#wash)"/>
+  <rect width="800" height="690" fill="url(#grid)"/>
+  <circle cx="690" cy="122" r="178" fill="#2f7861" opacity=".11"/>
+  <circle cx="93" cy="568" r="145" fill="#547553" opacity=".055"/>
+  <path d="M0 620q194-52 402 0t398 0v380H0z" fill="#f7fbf4" opacity=".72"/>
+  <rect x="48" y="48" width="704" height="600" rx="36" fill="#ffffff" opacity=".45"/>
+  <g><rect x="287" y="176" width="226" height="330" rx="34" fill="#547553"/><rect x="304" y="197" width="192" height="287" rx="22" fill="#f7fbf4"/><rect x="329" y="232" width="142" height="83" rx="14" fill="#2f7861"/><path d="M345 288l31-31 25 18 34-30" fill="none" stroke="#f7fbf4" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><rect x="330" y="343" width="63" height="92" rx="11" fill="#d9aa59"/><rect x="406" y="343" width="65" height="12" rx="6" fill="#547553" opacity=".75"/><rect x="406" y="368" width="55" height="9" rx="4" fill="#547553" opacity=".35"/><rect x="406" y="390" width="65" height="9" rx="4" fill="#547553" opacity=".35"/><circle cx="400" cy="465" r="7" fill="#547553"/></g>
+  <path d="M62 697h676" stroke="#547553" stroke-opacity=".18" stroke-width="2"/>
+  <text x="64" y="755" fill="#547553" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">DIGITAL SOLUTION  /  41</text>
+  <text x="64" y="824" fill="#547553" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" letter-spacing="-1">Wappx</text>
+  <text x="64" y="877" fill="#2f7861" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="1.2">WHATSAPP MARKETING &amp; AUTOMATION</text>
+  <rect x="64" y="923" width="78" height="7" rx="4" fill="#2f7861"/>
+  <circle cx="717" cy="924" r="22" fill="#547553"/>
+  <path d="M708 924h18m-8-8 8 8-8 8" fill="none" stroke="#f7fbf4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

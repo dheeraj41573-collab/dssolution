@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">Trylokaa Saree — Ethnic Saree Wear &amp; Boutique</title>
+  <desc id="description">Original illustrated portfolio artwork for Trylokaa Saree, featuring Ethnic Saree Wear &amp; Boutique.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fbf7ff"/><stop offset="1" stop-color="#e8dcf4"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.7" fill="#7054a0" opacity=".12"/></pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#wash)"/>
+  <rect width="800" height="690" fill="url(#grid)"/>
+  <circle cx="690" cy="122" r="178" fill="#697a43" opacity=".11"/>
+  <circle cx="93" cy="568" r="145" fill="#7054a0" opacity=".055"/>
+  <path d="M0 620q194-52 402 0t398 0v380H0z" fill="#fbf7ff" opacity=".72"/>
+  <rect x="48" y="48" width="704" height="600" rx="36" fill="#ffffff" opacity=".45"/>
+  <g><path d="M327 218q73 49 146 0l38 64-49 44 31 155q-93 44-186 0l31-155-49-44z" fill="#697a43" stroke="#7054a0" stroke-width="11" stroke-linejoin="round"/><path d="M327 218q73 73 146 0m-165 64 63 44-33 155m171-199-63 44 33 155" fill="none" stroke="#d9aa59" stroke-width="11"/><path d="M343 293h114m-101 45h87m-96 45h105m-115 45h124" stroke="#fbf7ff" stroke-width="7" opacity=".85"/></g>
+  <path d="M62 697h676" stroke="#7054a0" stroke-opacity=".18" stroke-width="2"/>
+  <text x="64" y="755" fill="#7054a0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">DIGITAL SOLUTION  /  30</text>
+  <text x="64" y="824" fill="#7054a0" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" letter-spacing="-1">Trylokaa Saree</text>
+  <text x="64" y="877" fill="#697a43" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="1.2">ETHNIC SAREE WEAR &amp; BOUTIQUE</text>
+  <rect x="64" y="923" width="78" height="7" rx="4" fill="#697a43"/>
+  <circle cx="717" cy="924" r="22" fill="#7054a0"/>
+  <path d="M708 924h18m-8-8 8 8-8 8" fill="none" stroke="#fbf7ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

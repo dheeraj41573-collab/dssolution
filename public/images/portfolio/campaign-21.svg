@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">Aurix — Luxury Fragrance &amp; Perfume</title>
+  <desc id="description">Original illustrated portfolio artwork for Aurix, featuring Luxury Fragrance &amp; Perfume.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fcf8f1"/><stop offset="1" stop-color="#e8d8c2"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.7" fill="#866640" opacity=".12"/></pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#wash)"/>
+  <rect width="800" height="690" fill="url(#grid)"/>
+  <circle cx="690" cy="122" r="178" fill="#456783" opacity=".11"/>
+  <circle cx="93" cy="568" r="145" fill="#866640" opacity=".055"/>
+  <path d="M0 620q194-52 402 0t398 0v380H0z" fill="#fcf8f1" opacity=".72"/>
+  <rect x="48" y="48" width="704" height="600" rx="36" fill="#ffffff" opacity=".45"/>
+  <g><ellipse cx="405" cy="482" rx="146" ry="35" fill="#866640" opacity=".15"/><rect x="323" y="264" width="154" height="218" rx="34" fill="#fcf8f1" stroke="#866640" stroke-width="12"/><path d="M353 264v-38q0-24 24-24h46q24 0 24 24v38" fill="#456783" stroke="#866640" stroke-width="10"/><rect x="375" y="178" width="50" height="26" rx="5" fill="#d9aa59"/><path d="M351 351h98v54h-98z" fill="#456783"/><path d="M400 360l-15 18 15 18 15-18z" fill="#d9aa59"/><path d="M337 293q63-29 126 0" fill="none" stroke="#fff" stroke-width="9" opacity=".8"/></g>
+  <path d="M62 697h676" stroke="#866640" stroke-opacity=".18" stroke-width="2"/>
+  <text x="64" y="755" fill="#866640" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">DIGITAL SOLUTION  /  21</text>
+  <text x="64" y="824" fill="#866640" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" letter-spacing="-1">Aurix</text>
+  <text x="64" y="877" fill="#456783" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="1.2">LUXURY FRAGRANCE &amp; PERFUME</text>
+  <rect x="64" y="923" width="78" height="7" rx="4" fill="#456783"/>
+  <circle cx="717" cy="924" r="22" fill="#866640"/>
+  <path d="M708 924h18m-8-8 8 8-8 8" fill="none" stroke="#fcf8f1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

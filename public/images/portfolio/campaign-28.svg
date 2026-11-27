@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">Bharat Battery — Industrial &amp; Car Batteries</title>
+  <desc id="description">Original illustrated portfolio artwork for Bharat Battery, featuring Industrial &amp; Car Batteries.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f5f9fd"/><stop offset="1" stop-color="#d9e3ed"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.7" fill="#456783" opacity=".12"/></pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#wash)"/>
+  <rect width="800" height="690" fill="url(#grid)"/>
+  <circle cx="690" cy="122" r="178" fill="#3f7879" opacity=".11"/>
+  <circle cx="93" cy="568" r="145" fill="#456783" opacity=".055"/>
+  <path d="M0 620q194-52 402 0t398 0v380H0z" fill="#f5f9fd" opacity=".72"/>
+  <rect x="48" y="48" width="704" height="600" rx="36" fill="#ffffff" opacity=".45"/>
+  <g><path d="M245 390h56l50-80h166l67 80h48q24 0 24 24v55H244v-55q0-24 1-24z" fill="#f5f9fd" stroke="#456783" stroke-width="12" stroke-linejoin="round"/><path d="M331 382l39-56h131l46 56z" fill="#3f7879"/><circle cx="333" cy="466" r="36" fill="#456783"/><circle cx="333" cy="466" r="15" fill="#d9aa59"/><circle cx="548" cy="466" r="36" fill="#456783"/><circle cx="548" cy="466" r="15" fill="#d9aa59"/><path d="M276 414h42m238 0h41" stroke="#d9aa59" stroke-width="10" stroke-linecap="round"/></g>
+  <path d="M62 697h676" stroke="#456783" stroke-opacity=".18" stroke-width="2"/>
+  <text x="64" y="755" fill="#456783" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">DIGITAL SOLUTION  /  28</text>
+  <text x="64" y="824" fill="#456783" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" letter-spacing="-1">Bharat Battery</text>
+  <text x="64" y="877" fill="#3f7879" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="1.2">INDUSTRIAL &amp; CAR BATTERIES</text>
+  <rect x="64" y="923" width="78" height="7" rx="4" fill="#3f7879"/>
+  <circle cx="717" cy="924" r="22" fill="#456783"/>
+  <path d="M708 924h18m-8-8 8 8-8 8" fill="none" stroke="#f5f9fd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

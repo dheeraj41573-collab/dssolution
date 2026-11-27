@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">Automaven — Smart Home &amp; Automation</title>
+  <desc id="description">Original illustrated portfolio artwork for Automaven, featuring Smart Home &amp; Automation.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff5ed"/><stop offset="1" stop-color="#f1d7c6"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.7" fill="#a3563f" opacity=".12"/></pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#wash)"/>
+  <rect width="800" height="690" fill="url(#grid)"/>
+  <circle cx="690" cy="122" r="178" fill="#a95345" opacity=".11"/>
+  <circle cx="93" cy="568" r="145" fill="#a3563f" opacity=".055"/>
+  <path d="M0 620q194-52 402 0t398 0v380H0z" fill="#fff5ed" opacity=".72"/>
+  <rect x="48" y="48" width="704" height="600" rx="36" fill="#ffffff" opacity=".45"/>
+  <g><rect x="287" y="176" width="226" height="330" rx="34" fill="#a3563f"/><rect x="304" y="197" width="192" height="287" rx="22" fill="#fff5ed"/><rect x="329" y="232" width="142" height="83" rx="14" fill="#a95345"/><path d="M345 288l31-31 25 18 34-30" fill="none" stroke="#fff5ed" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><rect x="330" y="343" width="63" height="92" rx="11" fill="#d9aa59"/><rect x="406" y="343" width="65" height="12" rx="6" fill="#a3563f" opacity=".75"/><rect x="406" y="368" width="55" height="9" rx="4" fill="#a3563f" opacity=".35"/><rect x="406" y="390" width="65" height="9" rx="4" fill="#a3563f" opacity=".35"/><circle cx="400" cy="465" r="7" fill="#a3563f"/></g>
+  <path d="M62 697h676" stroke="#a3563f" stroke-opacity=".18" stroke-width="2"/>
+  <text x="64" y="755" fill="#a3563f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">DIGITAL SOLUTION  /  27</text>
+  <text x="64" y="824" fill="#a3563f" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" letter-spacing="-1">Automaven</text>
+  <text x="64" y="877" fill="#a95345" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" letter-spacing="1.2">SMART HOME &amp; AUTOMATION</text>
+  <rect x="64" y="923" width="78" height="7" rx="4" fill="#a95345"/>
+  <circle cx="717" cy="924" r="22" fill="#a3563f"/>
+  <path d="M708 924h18m-8-8 8 8-8 8" fill="none" stroke="#fff5ed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

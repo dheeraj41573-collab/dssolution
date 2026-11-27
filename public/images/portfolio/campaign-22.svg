@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">NdecorNbeyond — Premium Interior Design</title>
+  <desc id="description">Original illustrated portfolio artwork for NdecorNbeyond, featuring Premium Interior Design.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f7f8fd"/><stop offset="1" stop-color="#d8dced"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.7" fill="#545f8d" opacity=".12"/></pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#wash)"/>
+  <rect width="800" height="690" fill="url(#grid)"/>
+  <circle cx="690" cy="122" r="178" fill="#397e92" opacity=".11"/>
+  <circle cx="93" cy="568" r="145" fill="#545f8d" opacity=".055"/>
+  <path d="M0 620q194-52 402 0t398 0v380H0z" fill="#f7f8fd" opacity=".72"/>
+  <rect x="48" y="48" width="704" height="600" rx="36" fill="#ffffff" opacity=".45"/>
+  <g><path d="M227 484V300l86-72 87 72v184z" fill="#f7f8fd" stroke="#545f8d" stroke-width="12"/><path d="M400 484V244l88-73 85 73v240z" fill="#545f8d"/><path d="M270 333h35v42h-35zm86 0h35v42h-35zm83-36h34v42h-34zm73 0h34v42h-34zm-73 90h34v42h-34zm73 0h34v42h-34z" fill="#d9aa59"/><path d="M371 484v-72h58v72" fill="#397e92"/><path d="M208 485h394" stroke="#545f8d" stroke-width="14" stroke-linecap="round"/></g>
+  <path d="M62 697h676" stroke="#545f8d" stroke-opacity=".18" stroke-width="2"/>
+  <text x="64" y="755" fill="#545f8d" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">DIGITAL SOLUTION  /  22</text>
+  <text x="64" y="824" fill="#545f8d" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" letter-spacing="-1">NdecorNbeyond</text>
+  <text x="64" y="877" fill="#397e92" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" letter-spacing="1.2">PREMIUM INTERIOR DESIGN</text>
+  <rect x="64" y="923" width="78" height="7" rx="4" fill="#397e92"/>
+  <circle cx="717" cy="924" r="22" fill="#545f8d"/>
+  <path d="M708 924h18m-8-8 8 8-8 8" fill="none" stroke="#f7f8fd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

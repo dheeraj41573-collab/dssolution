@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">RdsBundi — Traditional Gold Jewellery</title>
+  <desc id="description">Original illustrated portfolio artwork for RdsBundi, featuring Traditional Gold Jewellery.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff6f3"/><stop offset="1" stop-color="#f4d9d2"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.7" fill="#a95345" opacity=".12"/></pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#wash)"/>
+  <rect width="800" height="690" fill="url(#grid)"/>
+  <circle cx="690" cy="122" r="178" fill="#547553" opacity=".11"/>
+  <circle cx="93" cy="568" r="145" fill="#a95345" opacity=".055"/>
+  <path d="M0 620q194-52 402 0t398 0v380H0z" fill="#fff6f3" opacity=".72"/>
+  <rect x="48" y="48" width="704" height="600" rx="36" fill="#ffffff" opacity=".45"/>
+  <g><ellipse cx="396" cy="467" rx="188" ry="43" fill="#a95345" opacity=".13"/><path d="M286 279l68-57h92l68 57-114 177z" fill="#fff6f3" stroke="#a95345" stroke-width="11" stroke-linejoin="round"/><path d="M286 279h228m-160-57 46 57 46-57m-92 57 46 177 46-177" fill="none" stroke="#547553" stroke-width="9"/><path d="M400 185l-23 27 23 25 23-25z" fill="#d9aa59"/><circle cx="281" cy="325" r="20" fill="#d9aa59"/><circle cx="519" cy="325" r="20" fill="#d9aa59"/><path d="M276 344q18 48 36 0m202 0q18 48 36 0" fill="none" stroke="#d9aa59" stroke-width="8"/></g>
+  <path d="M62 697h676" stroke="#a95345" stroke-opacity=".18" stroke-width="2"/>
+  <text x="64" y="755" fill="#a95345" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">DIGITAL SOLUTION  /  34</text>
+  <text x="64" y="824" fill="#a95345" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" letter-spacing="-1">RdsBundi</text>
+  <text x="64" y="877" fill="#547553" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="1.2">TRADITIONAL GOLD JEWELLERY</text>
+  <rect x="64" y="923" width="78" height="7" rx="4" fill="#547553"/>
+  <circle cx="717" cy="924" r="22" fill="#a95345"/>
+  <path d="M708 924h18m-8-8 8 8-8 8" fill="none" stroke="#fff6f3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

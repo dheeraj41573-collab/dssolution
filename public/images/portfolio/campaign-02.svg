@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">Leaf &amp; Lore — Premium Tea &amp; Rituals</title>
+  <desc id="description">Original illustrated portfolio artwork for Leaf &amp; Lore, featuring Premium Tea &amp; Rituals.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f3fbf5"/><stop offset="1" stop-color="#cce8d9"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.7" fill="#2f7861" opacity=".12"/></pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#wash)"/>
+  <rect width="800" height="690" fill="url(#grid)"/>
+  <circle cx="690" cy="122" r="178" fill="#41775b" opacity=".11"/>
+  <circle cx="93" cy="568" r="145" fill="#2f7861" opacity=".055"/>
+  <path d="M0 620q194-52 402 0t398 0v380H0z" fill="#f3fbf5" opacity=".72"/>
+  <rect x="48" y="48" width="704" height="600" rx="36" fill="#ffffff" opacity=".45"/>
+  <g><ellipse cx="402" cy="475" rx="195" ry="45" fill="#2f7861" opacity=".13"/><path d="M305 245h190l-16 233H321z" rx="24" fill="#f3fbf5" stroke="#2f7861" stroke-width="12"/><path d="M305 293h190v53H305z" fill="#2f7861"/><path d="M340 386q60-54 120 0-60 73-120 0z" fill="#41775b"/><path d="M400 379q25-53 55-62m-61 59q-27-50-54-56" fill="none" stroke="#f3fbf5" stroke-width="9" stroke-linecap="round"/><path d="M520 327q90 0 64 74h-70" fill="none" stroke="#2f7861" stroke-width="13"/><path d="M346 225h108" stroke="#d9aa59" stroke-width="15" stroke-linecap="round"/></g>
+  <path d="M62 697h676" stroke="#2f7861" stroke-opacity=".18" stroke-width="2"/>
+  <text x="64" y="755" fill="#2f7861" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">DIGITAL SOLUTION  /  02</text>
+  <text x="64" y="824" fill="#2f7861" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" letter-spacing="-1">Leaf &amp; Lore</text>
+  <text x="64" y="877" fill="#41775b" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" letter-spacing="1.2">PREMIUM TEA &amp; RITUALS</text>
+  <rect x="64" y="923" width="78" height="7" rx="4" fill="#41775b"/>
+  <circle cx="717" cy="924" r="22" fill="#2f7861"/>
+  <path d="M708 924h18m-8-8 8 8-8 8" fill="none" stroke="#f3fbf5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

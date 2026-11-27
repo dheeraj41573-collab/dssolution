@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">GrowMate — Stationery &amp; Office Supplies</title>
+  <desc id="description">Original illustrated portfolio artwork for GrowMate, featuring Stationery &amp; Office Supplies.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f8faef"/><stop offset="1" stop-color="#e0e8ce"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.7" fill="#697a43" opacity=".12"/></pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#wash)"/>
+  <rect width="800" height="690" fill="url(#grid)"/>
+  <circle cx="690" cy="122" r="178" fill="#866640" opacity=".11"/>
+  <circle cx="93" cy="568" r="145" fill="#697a43" opacity=".055"/>
+  <path d="M0 620q194-52 402 0t398 0v380H0z" fill="#f8faef" opacity=".72"/>
+  <rect x="48" y="48" width="704" height="600" rx="36" fill="#ffffff" opacity=".45"/>
+  <g><path d="M294 247l76-28 89 245-76 28z" fill="#866640" stroke="#697a43" stroke-width="10" stroke-linejoin="round"/><path d="M294 247l76-28 18 50-76 28z" fill="#d9aa59"/><path d="M383 492l-10 56-23-51z" fill="#697a43"/><rect x="412" y="245" width="111" height="260" rx="12" fill="#f8faef" stroke="#697a43" stroke-width="11"/><path d="M435 305h65m-65 37h65m-65 37h49m-49 37h65" stroke="#866640" stroke-width="10" stroke-linecap="round"/><path d="M433 214h70" stroke="#d9aa59" stroke-width="18" stroke-linecap="round"/></g>
+  <path d="M62 697h676" stroke="#697a43" stroke-opacity=".18" stroke-width="2"/>
+  <text x="64" y="755" fill="#697a43" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">DIGITAL SOLUTION  /  37</text>
+  <text x="64" y="824" fill="#697a43" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" letter-spacing="-1">GrowMate</text>
+  <text x="64" y="877" fill="#866640" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="1.2">STATIONERY &amp; OFFICE SUPPLIES</text>
+  <rect x="64" y="923" width="78" height="7" rx="4" fill="#866640"/>
+  <circle cx="717" cy="924" r="22" fill="#697a43"/>
+  <path d="M708 924h18m-8-8 8 8-8 8" fill="none" stroke="#f8faef" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

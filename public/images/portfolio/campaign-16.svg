@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">Academy — NDA &amp; Defence Coaching</title>
+  <desc id="description">Original illustrated portfolio artwork for Academy, featuring NDA &amp; Defence Coaching.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f3f8fd"/><stop offset="1" stop-color="#d5e5f3"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.7" fill="#3e668f" opacity=".12"/></pattern>
+  </defs>
+  <rect width="800" height="1000" fill="url(#wash)"/>
+  <rect width="800" height="690" fill="url(#grid)"/>
+  <circle cx="690" cy="122" r="178" fill="#7d6a53" opacity=".11"/>
+  <circle cx="93" cy="568" r="145" fill="#3e668f" opacity=".055"/>
+  <path d="M0 620q194-52 402 0t398 0v380H0z" fill="#f3f8fd" opacity=".72"/>
+  <rect x="48" y="48" width="704" height="600" rx="36" fill="#ffffff" opacity=".45"/>
+  <g><path d="M400 170l153 59v111q0 110-153 173-153-63-153-173V229z" fill="#3e668f"/><path d="M400 204l119 46v87q0 83-119 137-119-54-119-137v-87z" fill="#f3f8fd"/><path d="M328 333l72-53 72 53-72 54z" fill="#7d6a53"/><path d="M352 352v50q48 32 96 0v-50m47-16v60" fill="none" stroke="#3e668f" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="495" cy="408" r="12" fill="#d9aa59"/></g>
+  <path d="M62 697h676" stroke="#3e668f" stroke-opacity=".18" stroke-width="2"/>
+  <text x="64" y="755" fill="#3e668f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="4">DIGITAL SOLUTION  /  16</text>
+  <text x="64" y="824" fill="#3e668f" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" letter-spacing="-1">Academy</text>
+  <text x="64" y="877" fill="#7d6a53" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" letter-spacing="1.2">NDA &amp; DEFENCE COACHING</text>
+  <rect x="64" y="923" width="78" height="7" rx="4" fill="#7d6a53"/>
+  <circle cx="717" cy="924" r="22" fill="#3e668f"/>
+  <path d="M708 924h18m-8-8 8 8-8 8" fill="none" stroke="#f3f8fd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
