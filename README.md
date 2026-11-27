@@ -24,6 +24,20 @@ The contact form sends each submission to the admin inbox configured by `CONTACT
 
 Booking and other integrations may require their own server environment variables.
 
+<<<<<<< HEAD
+=======
+## Deploy to Cloudflare Workers
+
+This Next.js app uses the OpenNext Cloudflare adapter. The regular `npm run build` remains the Node.js build for cPanel; use the Cloudflare-specific commands to create and deploy the Worker.
+
+1. Install dependencies with `npm ci`.
+2. Set `NEXT_PUBLIC_CMS_API_URL` as a build variable in Cloudflare Workers Builds; it is embedded during the build. Add any required server-side API keys as Worker secrets in the Cloudflare dashboard.
+3. For Cloudflare Workers Builds, set the build command to `npm run build:cloudflare` and the deploy command to `npx wrangler deploy`. This generates `.open-next/worker.js` before Wrangler deploys it.
+4. For local preview, run `npm run preview:cloudflare`. To deploy from your machine, authenticate Wrangler with `npx wrangler login`, then run `npm run deploy:cloudflare`.
+
+The Wrangler config and OpenNext adapter are already set up in `wrangler.jsonc` and `open-next.config.ts`. For local Worker preview, create `.dev.vars` with `NEXTJS_ENV=development` and any required development variables; keep secrets out of source control. The `WORKER_SELF_REFERENCE` service binding must retain the same name as the Worker (`dssolution`) for OpenNext revalidation.
+
+>>>>>>> e450f7a (Update website)
 ## Deploy to GoDaddy cPanel
 
 The client uses Next.js server rendering, middleware, and route handlers, so it must run as a Node.js application; uploading it as static HTML is not sufficient. The GoDaddy plan must provide cPanel's **Setup Node.js App** or equivalent feature.
