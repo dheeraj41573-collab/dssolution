@@ -1,0 +1,305 @@
+.ss-shell {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+  border-radius: 34px;
+  background: #081a47;
+  box-shadow: 0 34px 70px -34px
+    color-mix(in srgb, var(--ds-primary) 80%, transparent);
+}
+
+.ss-spot {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 520px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.ss-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  transform: scale(1.08);
+  filter: saturate(0.8);
+}
+
+.ss-veil {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    160deg,
+    rgba(8, 26, 71, 0.82),
+    rgba(23, 105, 245, 0.72) 60%,
+    rgba(98, 84, 216, 0.78)
+  );
+}
+
+.ss-dial {
+  position: relative;
+  width: min(78%, 340px);
+  aspect-ratio: 1;
+}
+
+.ss-dial svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.ss-track {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.18);
+  stroke-width: 10;
+}
+
+.ss-arc {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.ss-figure {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  animation: ss-pop 0.5s ease;
+  overflow: hidden;
+}
+
+.ss-number {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ss-big {
+  font-family: var(--font-secondary, inherit);
+  font-weight: 600;
+  font-size: clamp(64px, 8vw, 104px);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  font-variant-numeric: tabular-nums;
+}
+
+.ss-number sup {
+  position: absolute;
+  top: -0.08em;
+  right: -0.48em;
+  font-size: clamp(20px, 2.5vw, 32px);
+  line-height: 1;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@keyframes ss-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.ss-badge {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 104px;
+  height: 104px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8px);
+  color: #fff;
+}
+
+.ss-badge svg {
+  position: absolute;
+  inset: 0;
+  animation: ss-rot 18s linear infinite;
+}
+
+.ss-badge text {
+  fill: #fff;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.ss-badge span {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #fff;
+  color: #081a47;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@keyframes ss-rot {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ss-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+  gap: 6px;
+  color: #fff;
+  background: linear-gradient(180deg, #081a47, #0b2a75);
+}
+
+.ss-row {
+  position: relative;
+  overflow: hidden;
+  border-radius: 22px;
+  transition: background 0.3s;
+}
+
+.ss-row:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.ss-row.on {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.ss-tab {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  border: 0;
+  background: none;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ss-tab:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: -3px;
+  border-radius: 22px;
+}
+
+.ss-ic {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.14);
+  transition:
+    background 0.3s,
+    color 0.3s,
+    transform 0.4s;
+}
+
+.ss-row.on .ss-ic {
+  background: #fff;
+  color: var(--ds-primary);
+  transform: rotate(-8deg);
+}
+
+.ss-t small {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.ss-t h3 {
+  margin: 2px 0 0;
+  font-size: clamp(17px, 1.7vw, 21px);
+  line-height: 1.25;
+  color: #fff;
+}
+
+.ss-more {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.45s ease;
+}
+
+.ss-row.on .ss-more {
+  grid-template-rows: 1fr;
+}
+
+.ss-more > div {
+  overflow: hidden;
+}
+
+.ss-more p {
+  margin: 0;
+  padding: 0 24px 22px 84px;
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.ss-prog {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #fff;
+  animation: ss-fill 6s linear forwards;
+}
+
+.ss-prog.paused {
+  animation-play-state: paused;
+}
+
+@keyframes ss-fill {
+  to {
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  .ss-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .ss-spot {
+    min-height: 400px;
+  }
+
+  .ss-more p {
+    padding-left: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ss-section * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,184 @@
+.funnel-container {
+  @apply mx-auto flex w-full max-w-6xl flex-col items-center gap-2;
+  padding-block: 1.5rem;
+}
+
+.business-needs-section {
+  padding-block: 4rem;
+  padding-bottom: 2rem;
+}
+
+.business-needs-section .section-container {
+  gap: 1.5rem;
+}
+
+.business-needs-section .section-intro {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1280px) {
+  .business-needs-section {
+    padding-top: 5rem;
+  }
+}
+
+.comparison-section {
+  padding-top: 2rem;
+}
+
+.comparison-row-divider {
+  border-color: color-mix(in srgb, var(--ds-primary) 22%, var(--ds-border));
+}
+
+:root:not(.dark) .comparison-row-divider {
+  border-color: #b6c8e8;
+}
+
+@media (min-width: 1280px) {
+  .comparison-section {
+    padding-top: 2.5rem;
+  }
+}
+
+.funnel-item {
+  @apply relative isolate flex min-h-[120px] items-center justify-between gap-6 overflow-hidden p-8 transition-all duration-500;
+  background: color-mix(in srgb, var(--ds-surface) 95%, var(--ds-primary) 5%);
+  border: 1px solid var(--ds-border);
+  border-radius: 12px;
+}
+
+/* Funnel Shape Steps */
+.funnel-step-1 {
+  width: 100%;
+  clip-path: polygon(2% 0%, 98% 0%, 96% 100%, 4% 100%);
+}
+.funnel-step-2 {
+  width: 92%;
+  clip-path: polygon(2% 0%, 98% 0%, 96% 100%, 4% 100%);
+}
+.funnel-step-3 {
+  width: 84%;
+  clip-path: polygon(2% 0%, 98% 0%, 96% 100%, 4% 100%);
+}
+.funnel-step-4 {
+  width: 76%;
+  clip-path: polygon(2% 0%, 98% 0%, 96% 100%, 4% 100%);
+}
+.funnel-step-5 {
+  width: 68%;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  border-radius: 12px;
+}
+
+/* Theme adaptations */
+.funnel-item {
+  @apply border-border bg-white;
+}
+
+.dark .funnel-item {
+  background: #121421;
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+.funnel-item:hover {
+  @apply border-primary/40 -translate-y-1 shadow-lg;
+  background: color-mix(in srgb, var(--ds-surface) 95%, var(--ds-primary) 5%);
+}
+
+.dark .funnel-item:hover {
+  background: #1a1d2e;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 30px rgba(23, 105, 245, 0.2);
+}
+
+/* Background Number styling */
+.funnel-item-bg-number {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  right: 17%;
+  transform: translateY(-50%);
+  color: color-mix(in srgb, var(--ds-primary) 10%, transparent);
+  font-size: clamp(6rem, 11vw, 9rem);
+  font-weight: 900;
+  line-height: 1;
+  -webkit-text-stroke: 1px
+    color-mix(in srgb, var(--ds-primary) 48%, transparent);
+  pointer-events: none;
+  user-select: none;
+}
+
+.funnel-icons-group,
+.funnel-center-group,
+.funnel-right-group {
+  position: relative;
+  z-index: 1;
+}
+
+.funnel-step-label {
+  border: 1px solid color-mix(in srgb, var(--ds-primary) 25%, var(--ds-border));
+  border-radius: 999px;
+  padding: 4px 10px;
+  background: color-mix(in srgb, var(--ds-primary) 9%, var(--ds-surface));
+  color: var(--ds-primary);
+  opacity: 1;
+  font-size: 0.64rem;
+  letter-spacing: 0.14em;
+}
+
+/* Layout Components */
+.funnel-icons-group {
+  @apply flex w-40 shrink-0 items-center justify-center;
+}
+
+.funnel-center-group {
+  @apply flex w-48 shrink-0 flex-col items-center justify-center text-center;
+}
+
+.funnel-right-group {
+  @apply flex w-full max-w-sm flex-col justify-center text-left;
+}
+
+.funnel-title {
+  @apply text-h5 text-text-dark font-bold tracking-widest uppercase;
+}
+
+.funnel-desc {
+  @apply text-text-light text-sm leading-relaxed;
+}
+
+.dark .funnel-title {
+  color: var(--ds-on-accent);
+}
+
+.dark .funnel-desc {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 1024px) {
+  .funnel-step-1,
+  .funnel-step-2,
+  .funnel-step-3,
+  .funnel-step-4,
+  .funnel-step-5 {
+    width: 100%;
+    clip-path: none;
+    @apply px-4;
+  }
+  .funnel-item {
+    @apply flex-col gap-6 px-6 py-10 text-center;
+  }
+  .funnel-right-group {
+    @apply max-w-full text-center;
+  }
+  .funnel-icons-group,
+  .funnel-center-group {
+    @apply w-full;
+  }
+  .funnel-item-bg-number {
+    top: 18px;
+    right: 16px;
+    transform: none;
+    font-size: 5rem;
+  }
+}

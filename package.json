@@ -1,0 +1,49 @@
+{
+  "name": "ds-solution-website",
+  "version": "1.0.1",
+  "description": "DS Solution digital agency website built with Next.js, React and Tailwind CSS",
+  "author": "DS Solution",
+  "license": "MIT",
+  "type": "module",
+  "browserslist": [
+    "chrome 111",
+    "edge 111",
+    "firefox 111",
+    "safari 16.4"
+  ],
+  "scripts": {
+    "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"next dev\"",
+    "build": "node scripts/themeGenerator.js && next build",
+    "build:cpanel": "npm run build && node scripts/prepareCpanel.mjs",
+    "start": "next start",
+    "check": "tsc --noEmit",
+    "format": "prettier -w ./app ./src/components",
+    "audit:headings": "node scripts/auditHeadings.mjs",
+    "audit:alt": "node scripts/auditAlt.mjs",
+    "audit:emails": "node scripts/auditEmails.mjs"
+  },
+  "dependencies": {
+    "marked": "^18.0.5",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "next": "^15.5.0",
+    "react-icons": "^5.6.0",
+    "stripe": "^22.3.0",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/postcss": "^4.3.1",
+    "@tailwindcss/typography": "^0.5.20",
+    "concurrently": "^10.0.3",
+    "eslint": "^10.6.0",
+    "prettier": "^3.8.5",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "tailwind-bootstrap-grid": "^7.0.0",
+    "tailwindcss": "^4.3.1",
+    "typescript": "^6.0.3",
+    "@types/node": "26.0.1",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "site": {
+    "title": "DS Solution",
+    "base_url": "https://thedssolution.com",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/ds-solution-logo.png",
+    "logo_width": "190",
+    "logo_height": "56",
+    "logo_text": "DS Solution"
+  },
+  "settings": {
+    "sticky_header": true
+  },
+  "params": {
+    "contact_form_action": "/api/contact",
+    "checklist_form_action": "#",
+    "apply_form_action": "#",
+    "copyright": "Copyright &copy; 2026 <strong>DS Solution</strong>. All rights reserved.",
+    "footer_tagline": "Building websites. Building brands. Growing businesses.",
+    "footer_email": "info@thedssolution.com",
+    "footer_phone": "+91 88721 50361",
+    "footer_email_secondary": "inquiry@thedssolution.com",
+    "footer_phone_secondary": "+91 9988051081",
+    "footer_phone_tertiary": "+1 (888) 765-2880"
+  },
+  "navigation_button": {
+    "enable": true,
+    "label": "Let’s Talk",
+    "link": "/contact"
+  },
+  "google_tag_manager": {
+    "enable": false,
+    "gtm_id": "GTM-XXXXXX"
+  },
+  "metadata": {
+    "meta_author": "DS Solution",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "DS Solution helps ambitious businesses grow with digital marketing, website development, branding, SEO and performance campaigns."
+  }
+}

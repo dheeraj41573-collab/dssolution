@@ -1,0 +1,42 @@
+{
+  "main": [
+    {
+      "name": "instagram",
+      "icon": "FaInstagram",
+      "link": "https://www.instagram.com/"
+    },
+    {
+      "name": "youtube",
+      "icon": "FaYoutube",
+      "link": "https://www.youtube.com/@thedssolution"
+    }
+  ],
+  "floating": [
+    {
+      "name": "Facebook",
+      "link": "https://www.facebook.com/thedssolution/"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://www.instagram.com/digital__solutions___"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/pallavi-thedssolution/"
+    },
+    {
+      "name": "YouTube",
+      "link": "https://www.youtube.com/@thedssolution"
+    }
+  ],
+  "footerOnly": [
+    {
+      "name": "X",
+      "link": "https://x.com/DigitalS0lution"
+    },
+    {
+      "name": "Pinterest",
+      "link": "https://in.pinterest.com/thedssolution/"
+    }
+  ]
+}

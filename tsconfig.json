@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "es2017",
+    "types": [
+      "node"
+    ],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "incremental": true,
+    "esModuleInterop": true,
+    "isolatedModules": true
+  },
+  "include": [
+    ".next/dev/types/**/*.ts",
+    ".next/types/**/*.ts",
+    "app/**/*.js",
+    "app/**/*.jsx",
+    "next-env.d.ts",
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    ".next-dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/pages"
+  ]
+}

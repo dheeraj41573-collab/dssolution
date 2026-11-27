@@ -1,0 +1,48 @@
+{
+  "colors": {
+    "default": {
+      "theme_color": {
+        "primary": "#1769F5",
+        "primary_light": "#6254D8",
+        "secondary": "#12B8D4",
+        "body": "#F6F8FF",
+        "border": "#DDE4F2",
+        "light": "#FFFFFF",
+        "dark": "#09162F"
+      },
+      "text_color": {
+        "text": "#34415C",
+        "text_dark": "#101B33",
+        "text_light": "#64718A"
+      }
+    },
+    "darkmode": {
+      "theme_color": {
+        "primary": "#4D8BFF",
+        "primary_light": "#967BFF",
+        "secondary": "#31D0E2",
+        "body": "#0A1020",
+        "border": "#25324B",
+        "light": "#121C32",
+        "dark": "#070C18"
+      },
+      "text_color": {
+        "text": "#D6DFF0",
+        "text_dark": "#FFFFFF",
+        "text_light": "#A5B2C9"
+      }
+    }
+  },
+  "fonts": {
+    "font_family": {
+      "primary": "Inter+Tight:wght@400;500;600",
+      "primary_type": "sans-serif",
+      "secondary": "Urbanist:wght@500;700",
+      "secondary_type": "sans-serif"
+    },
+    "font_size": {
+      "base": "16",
+      "scale": "1.25"
+    }
+  }
+}

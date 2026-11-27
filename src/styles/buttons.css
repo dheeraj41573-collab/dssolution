@@ -1,0 +1,37 @@
+.btn {
+  @apply inline-block cursor-pointer rounded-full px-8 py-3 font-normal capitalize transition select-none;
+}
+
+.btn-sm {
+  @apply cursor-pointer rounded-sm px-4 py-1.5 text-sm select-none;
+}
+
+.btn-primary {
+  @apply text-on-accent;
+  background: linear-gradient(
+    0deg,
+    var(--color-primary-light) 0%,
+    var(--color-primary) 100%
+  );
+
+  &:hover {
+    @apply brightness-125;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px var(--color-primary-light);
+  }
+}
+.btn-outline-primary {
+  @apply border-primary text-primary border-[1.5px];
+}
+
+.btn-outline {
+  @apply border-text text-text-light hover:bg-primary hover:border-primary hover:text-on-accent border-[1.5px] bg-transparent transition-all duration-300;
+}
+.btn-outline:hover {
+  box-shadow: 0px 0px 15px var(--color-primary);
+}
+
+.services-category-filter[aria-pressed="true"] {
+  color: #fff !important;
+  background-color: var(--ds-primary) !important;
+}

@@ -1,0 +1,90 @@
+{
+  "main": [
+    { "name": "Home", "url": "/" },
+    { "name": "About", "url": "/about" },
+    { "name": "Services", "url": "/services" },
+    { "name": "Industries", "url": "/industries" },
+    { "name": "Legal", "url": "/legal" },
+    { "name": "Portfolio", "url": "/portfolio"},
+    { "name": "Blog", "url": "/blog" },
+    { "name": "SMM", "url": "/smm" },
+    { "name": "Contact", "url": "/contact" }
+  ],
+  "footer_col_1_title": "Explore",
+  "footer_col_2_title": "Services",
+  "footer_col_3_title": "Legal",
+  "footer_primary": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About DS Solution",
+      "url": "/about"
+    },
+    {
+      "name": "Portfolio",
+      "url": "/portfolio"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "name": "FAQs",
+      "url": "/faqs"
+    }
+  ],
+  "footer_resource": [
+    {
+      "name": "Digital Marketing",
+      "url": "/services/digital-marketing"
+    },
+    {
+      "name": "Web Development & Website/UI/UX Design",
+      "url": "/services/web-development"
+    },
+    {
+      "name": "SEO & Content Services",
+      "url": "/services/seo"
+    },
+    {
+      "name": "Local SEO",
+      "url": "/services/local-seo"
+    },
+    {
+      "name": "PPC Services",
+      "url": "/services/google-ads"
+    },
+    {
+      "name": "Paid Social Ads",
+      "url": "/services/meta-ads"
+    },
+    {
+      "name": "Creative Design",
+      "url": "/services/graphic-design"
+    },
+    {
+      "name": "Social Media Management",
+      "url": "/services/social-media-marketing"
+    },
+    {
+      "name": "Influencer Marketing",
+      "url": "/services/influencer-marketing"
+    },
+    {
+      "name": "App Development",
+      "url": "/services/app-development"
+    }
+  ],
+  "footer_legal": [
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
+    },
+    {
+      "name": "Cancellation and Refund Policy",
+      "url": "/cancellation-and-refund-policy"
+    }
+  ]
+}
