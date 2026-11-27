@@ -1,0 +1,187 @@
+/* global Swiper */
+
+(function () {
+  "use strict";
+
+  function init() {
+    // Accordion
+    // ----------------------------------------
+    const accordions = document.querySelectorAll("[data-accordion]");
+    accordions.forEach((header) => {
+      header.addEventListener("click", () => {
+        const accordionItem = header.parentElement;
+        accordionItem.classList.toggle("active");
+      });
+    });
+
+    // Tab
+    // ----------------------------------------
+    function setActiveTab(tabGroup, tabName) {
+      const tabsNav = tabGroup.querySelector("[data-tab-nav]");
+      const tabsContent = tabGroup.querySelector("[data-tab-content]");
+      if (!tabsNav || !tabsContent) return;
+
+      tabsNav.querySelectorAll("[data-tab]").forEach((tabNavItem) => {
+        tabNavItem.classList.remove("active");
+      });
+      tabsContent.querySelectorAll("[data-tab-panel]").forEach((tabPane) => {
+        tabPane.classList.remove("active");
+      });
+
+      const selectedTabNavItem = tabsNav.querySelector(
+        `[data-tab="${tabName}"]`,
+      );
+      if (selectedTabNavItem) selectedTabNavItem.classList.add("active");
+      const selectedTabPane = tabsContent.querySelector(
+        `[data-tab-panel="${tabName}"]`,
+      );
+      if (selectedTabPane) selectedTabPane.classList.add("active");
+    }
+
+    const tabGroups = document.querySelectorAll("[data-tab-group]");
+    tabGroups.forEach((tabGroup) => {
+      const tabsNav = tabGroup.querySelector("[data-tab-nav]");
+      if (!tabsNav) return;
+      const tabsNavItem = tabsNav.querySelectorAll("[data-tab]");
+      if (!tabsNavItem.length) return;
+      const activeTabName = tabsNavItem[0].getAttribute("data-tab");
+      setActiveTab(tabGroup, activeTabName);
+
+      tabsNavItem.forEach((tabNavItem) => {
+        tabNavItem.addEventListener("click", () => {
+          const tabName = tabNavItem.dataset.tab;
+          setActiveTab(tabGroup, tabName);
+        });
+      });
+    });
+
+    const tablist = document.querySelectorAll("[data-tab-nav] [data-tab]");
+    function tabsHandler(event) {
+      let index = Array.from(tablist).indexOf(event.currentTarget);
+      let numbTabs = tablist.length;
+      let nextId;
+      if (numbTabs > 1) {
+        if (event.key === "ArrowRight") {
+          nextId = tablist[(index + 1) % numbTabs];
+          nextId.focus();
+          nextId.click();
+        }
+        if (event.key === "ArrowLeft") {
+          nextId = tablist[(index - 1 + numbTabs) % numbTabs];
+          nextId.focus();
+          nextId.click();
+        }
+      }
+    }
+    tablist.forEach(function (tab) {
+      tab.addEventListener("keydown", tabsHandler);
+    });
+
+    // Modal
+    // ----------------------------------------
+    const openModalButtons = document.querySelectorAll("[data-modal-open]");
+    const closeModalButtons = document.querySelectorAll("[data-modal-close]");
+
+    function openModal(modal) {
+      if (!modal) return;
+      const overlay = modal.querySelector("[data-modal-overlay]");
+      modal.style.display = "block";
+      if (overlay) overlay.style.display = "block";
+    }
+
+    function closeModal(modal) {
+      if (!modal) return;
+      const overlay = modal.querySelector("[data-modal-overlay]");
+      modal.style.display = "none";
+      if (overlay) overlay.style.display = "none";
+    }
+
+    openModalButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const modal = button.nextElementSibling;
+        openModal(modal);
+      });
+    });
+
+    closeModalButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const modal = button.closest("[data-modal]");
+        closeModal(modal);
+      });
+    });
+
+    // Starred Box
+    const mainFeatureStarred = document.querySelectorAll("[data-is-starred]");
+    mainFeatureStarred.forEach((el) => {
+      const isStarred = el.getAttribute("data-is-starred");
+      el.style.display = isStarred === "true" ? "block" : "none";
+    });
+
+    // BN Cards indent on desktop
+    const bnCardsLayout = () => {
+      const bnCards = document.querySelectorAll("[data-bn-card]");
+      bnCards.forEach((card) => {
+        const cardNumber = card.getAttribute("data-bn-card");
+        if (cardNumber) {
+          if (window.innerWidth > 1280) {
+            card.style.marginInline = `${(cardNumber - 1) * 38}px`;
+          } else {
+            card.style.marginInline = "0px";
+          }
+        }
+      });
+    };
+    window.addEventListener("resize", bnCardsLayout);
+    bnCardsLayout();
+
+    // Comparison Row - randomize images
+    const comparisonRows = document.querySelectorAll(
+      "[data-comparison-row-images-path]",
+    );
+    comparisonRows.forEach((row) => {
+      const images = JSON.parse(row.dataset.comparisonRowImagesPath);
+      const container = row;
+      container.innerHTML = "";
+      images.sort(() => 0.5 - Math.random());
+      images.slice(0, Math.floor(Math.random() * 4) + 2).forEach((imgPath) => {
+        const img = document.createElement("img");
+        img.src = imgPath;
+        img.alt = "Comparison Image";
+        img.draggable = false;
+        img.loading = "lazy";
+        img.decoding = "async";
+        img.className = "max-h-12";
+        container.appendChild(img);
+      });
+    });
+
+    // Header scroll background handled in SiteHeader.jsx component
+    const header = document.querySelector(".header");
+    if (header) {
+      header.classList.remove("hide");
+    }
+  }
+
+  // Run immediately — scripts are at end of body, DOM is ready
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
+  }
+})();
+
+(() => {
+  const el = document.querySelector(".service-rotator");
+  if (!el) return;
+  const values = (el.dataset.rotate || "").split("|").filter(Boolean);
+  if (values.length < 2) return;
+  let i = 0;
+  window.setInterval(() => {
+    el.classList.add("is-changing");
+    window.setTimeout(() => {
+      i = (i + 1) % values.length;
+      el.textContent = values[i];
+      el.classList.remove("is-changing");
+    }, 220);
+  }, 2400);
+})();
