@@ -1,25 +1,16 @@
 {
-<<<<<<< HEAD
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "dssolution",
-  "main": ".open-next/worker.js",
-=======
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "dssolution",
   "main": ".open-next/worker.js",
   "upload_source_maps": true,
->>>>>>> e450f7a (Update website)
   "compatibility_date": "2026-11-27",
   "compatibility_flags": [
     "nodejs_compat"
   ],
-<<<<<<< HEAD
-=======
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
->>>>>>> e450f7a (Update website)
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
